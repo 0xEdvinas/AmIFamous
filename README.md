@@ -49,7 +49,7 @@ CREATE TABLE breaches (
 * breach_records:
 
 ```sql
-CREATE TABLE breach_data (
+CREATE TABLE breach_records (
     id INT NOT NULL AUTO_INCREMENT,
     breach_id INT NOT NULL,
 
@@ -65,12 +65,13 @@ CREATE TABLE breach_data (
 
     INDEX idx_breach_id (breach_id),
 
-    CONSTRAINT fk_breach_data_breach
+    CONSTRAINT fk_breach_records_breach
         FOREIGN KEY (breach_id)
         REFERENCES breaches(id)
         ON DELETE CASCADE
         ON UPDATE CASCADE
 );
+
 ```
 
 #### default config/db.php file
