@@ -10,6 +10,24 @@ This project was made for educational purposes only. I do not endorse or support
 
 ## Setup
 
+### Project
+
+* Git clone repo:
+
+```bash
+git clone https://github.com/edveikis/AmIFamous.git
+```
+
+* cd into it
+
+```bash
+cd AmIFamous/
+```
+
+* composer install
+
+* docker compose up
+
 ### Database
 
 #### Create tables
@@ -55,7 +73,7 @@ CREATE TABLE breach_data (
 );
 ```
 
-#### config/db.php file example
+#### default config/db.php file
 
 ```php
 <?php
@@ -68,3 +86,7 @@ return [
     'password' => 'password'
 ];
 ```
+
+### Open it in a browser
+
+* Open `http://localhost:8080/` in your browser
