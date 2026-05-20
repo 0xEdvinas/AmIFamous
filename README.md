@@ -69,3 +69,7 @@ return [
 ### Open it in a browser
 
 * Open `http://localhost:8080/` in your browser
+
+# 📜 License
+
+This project is licensed under the GPL v3 [LICENSE](LICENSE).
