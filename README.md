@@ -10,23 +10,23 @@ This project was made for educational purposes only. I do not endorse or support
 
 ## Setup
 
-### Project
-
-* Git clone repo:
+### Project setup
 
 ```bash
 git clone https://github.com/edveikis/AmIFamous.git
 ```
 
-* cd into it
-
 ```bash
 cd AmIFamous/
 ```
 
-* composer install
+```bash
+composer install
+```
 
-* docker compose up
+```bash
+docker compose up
+```
 
 ### Database
 
